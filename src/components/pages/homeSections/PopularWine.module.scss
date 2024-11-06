@@ -1,0 +1,33 @@
+.PopularWine {
+  margin-top: 100px;
+  .content {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 25px;
+      width: 350px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.801);
+      margin-top: 10px;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 26px;
+      margin-top: 70px;
+      .pro {
+        width: 280px;
+        height: 200px;
+        border: 1px solid white;
+        position: relative;
+        img {
+          width: 200px;
+          position: absolute;
+          top: -20px;
+          left: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.Header {
+  width: 100%;
+  position: fixed;
+  background: #1a1a1a;
+  opacity: 95%;
+  padding: 10px 0;
+  z-index: 10;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .image {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      .nave {
+        display: flex;
+        align-items: center;
+        img {
+          width: 70px;
+        }
+        h3 {
+          background: linear-gradient(to right, cyan, blue, violet);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        h1 {
+          font-size: 18px;
+          font-weight: 100;
+          color: #fff;
+          cursor: pointer;
+          transition: color 0.3s ease;
+        }
+      }
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      h1 {
+        font-weight: 100;
+        color: #fff;
+        cursor: pointer;
+        transition: color 0.3s ease;
+      }
+    }
+  }
+}

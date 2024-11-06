@@ -1,0 +1,62 @@
+.WiteWine {
+  margin-top: 100px;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .image {
+      img {
+        filter: drop-shadow(1px 1px 1px beige);
+      }
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h1 {
+        font-size: 40px;
+        color: bisque;
+      }
+      h2 {
+        width: 430px;
+        color: rgba(255, 255, 255, 0.959);
+      }
+      h3 {
+        width: 530px;
+        line-height: 30px;
+        margin-top: 15px;
+        font-size: 18px;
+        span {
+          cursor: pointer;
+          color: rgba(255, 228, 196, 0.705);
+        }
+        span:hover {
+          color: bisque;
+          transition: 0.3s;
+        }
+      }
+      a {
+        margin-top: 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(245, 245, 220, 0.74);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+          margin-top: 6px;
+          color: rgba(0, 0, 255, 0.468);
+        }
+      }
+      a:hover {
+        color: beige;
+        transition: 0.3s;
+        span {
+          margin-left: 5px;
+          transition: 0.5s;
+          color: rgb(0, 30, 255);
+        }
+      }
+    }
+  }
+}
